@@ -16,6 +16,8 @@ import {cross_doc_event_legend, ner_legend} from "./components/lib/definitions";
 // @ts-ignore
 import { useAlert } from 'react-alert'
 import {useHistory} from "react-router";
+import Example from "./components/Example";
+import Instruction from "./components/Instruction";
 
 export type OnEventType = (event: any) => void;
 
@@ -84,6 +86,7 @@ export default function CrossViewer(props: CrossDocProp) {
   }
 
   const [instructionOpen, setInstructionOpen] = useState<boolean>(false);
+  const [exampleOpen, setExampleOpen] = useState<boolean>(false);
 
   const BSelectedIndex = multiPack.crossDocLink.filter(item => item._parent_token === +nowAOnEvent.id && item.coref==="coref")
             .map(item => item._child_token)
@@ -124,9 +127,15 @@ export default function CrossViewer(props: CrossDocProp) {
     setInstructionOpen(true);
     return false;
   }
+  function clickViewExample(){
+    setExampleOpen(true);
+  }
   function clickAnywhere(){
     if (instructionOpen) {
       setInstructionOpen(false);
+    }
+    if (exampleOpen) {
+      setExampleOpen(false);
     }
     return false;
   }
@@ -258,7 +267,9 @@ export default function CrossViewer(props: CrossDocProp) {
 
   return (
       <div onClick={clickAnywhere}>
-        <ReactModal isOpen={instructionOpen} className={style.modal} overlayClassName={style.modal_overlay}>Please refer to the instructions in the Google Doc.</ReactModal>
+        <ReactModal isOpen={exampleOpen} className={style.modal} overlayClassName={style.modal_overlay}><Example/></ReactModal>
+        <ReactModal isOpen={instructionOpen} className={style.modal} overlayClassName={style.modal_overlay}><Instruction/></ReactModal>
+
         <ReactModal isOpen={finished} className={style.modal} overlayClassName={style.modal_overlay}>You have finished. Secret code is {secretCode}</ReactModal>
       <div className={style.text_viewer}>
         {/*discription here*/}
@@ -269,9 +280,9 @@ export default function CrossViewer(props: CrossDocProp) {
               View Instructions
             </button>
             <div>{dynamic_instruction}</div>
-            <button onClick={clickViewInstruction}
+            <button onClick={clickViewExample}
                     className={style.button_view_instruction}>
-              View Annotations
+              View Examples
             </button>
           </div>
         </div>
