@@ -23,8 +23,8 @@ def read_creation_record(textPack):
     Get a mapping from username to a set of tids
     """
     mapping = {} # from username/forteid to their creation records
-    for username in textPack["py/state"]["creation_records"]:
-        tids = set(textPack["py/state"]["creation_records"][username]["py/set"])
+    for username in textPack["py/state"]["_creation_records"]:
+        tids = set(textPack["py/state"]["_creation_records"][username]["py/set"])
         mapping[username] = tids
     return mapping
 
@@ -50,7 +50,7 @@ def delete_link(textPack, parent_event_id, child_event_id, forteID):
 
     if tid_to_delete is not None:
         del textPack["py/state"]["links"][index_to_delete]
-        textPack["py/state"]["creation_records"][forteID]["py/set"].remove(tid_to_delete)
+        textPack["py/state"]["_creation_records"][forteID]["py/set"].remove(tid_to_delete)
 
 
 
@@ -185,9 +185,9 @@ def new_cross_doc_link(request, crossDoc_Hash):
     textPackJson['py/state']['links'].append(link)
 
     # append the creation records
-    if forteID not in textPackJson["py/state"]["creation_records"]:
-        textPackJson["py/state"]["creation_records"][forteID] = {"py/set":[]}
-    textPackJson["py/state"]["creation_records"][forteID]["py/set"].append(link_id)
+    if forteID not in textPackJson["py/state"]["_creation_records"]:
+        textPackJson["py/state"]["_creation_records"][forteID] = {"py/set":[]}
+    textPackJson["py/state"]["_creation_records"][forteID]["py/set"].append(link_id)
 
     # commit to the database
     crossDoc.textPack = json.dumps(textPackJson)
@@ -219,7 +219,7 @@ def delete_cross_doc_link(request, crossDoc_Hash, link_id):
         success = False
     else:
         del textPackJson['py/state']['links'][deleteIndex]
-        textPackJson["py/state"]["creation_records"][forteID]["py/set"].remove(link_id)
+        textPackJson["py/state"]["_creation_records"][forteID]["py/set"].remove(link_id)
         crossDoc.textPack = json.dumps(textPackJson)
         crossDoc.save()
 

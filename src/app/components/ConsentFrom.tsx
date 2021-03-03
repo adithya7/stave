@@ -60,7 +60,7 @@ function ConsentForm({onEvent}: ConsentFormProp) {
 
       <h4>Procedures</h4>
         <p>
-      You will be directed to a website implemented by the research team to complete the task. You will be asked to read 2 pairs of articles. For each pair of articles, you will need to label pieces of text that refer to the same event, and answer additional questions about your labeling. Labeling one pair of articles whose length sums up to 20 sentences is expected to take around 6 minutes. The task is expected to take 12 minutes.
+      You will be directed to a website implemented by the research team to complete the task. You will be asked to read upto 3 pairs of articles. For each pair of articles, you will need to label pieces of text that refer to the same event, and answer additional questions about your labeling. Labeling one pair of articles whose length sums up to 40 sentences is expected to take around 15 minutes.
         </p>
 
       <h4>Participant Requirements</h4>
@@ -80,7 +80,7 @@ function ConsentForm({onEvent}: ConsentFormProp) {
 
       <h4>Compensation & Costs</h4>
       <p>
-      For this task, you will receive $2.40 for annotating 2 pairs of articles. You will not be compensated if you provide annotations of poor quality.
+      For this task, you will receive between $2 to $3 for annotating each pair of articles. The exact reward for each pair depends on the length of corresponding articles. You will not be compensated if you provide annotations of poor quality.
       <br/>
       There will be no cost to you if you participate in this study.
       </p>

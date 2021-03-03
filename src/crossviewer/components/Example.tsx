@@ -4,17 +4,17 @@ import style from '../styles/CrossDocStyle.module.css';
 function Example() {
   return (
     <div>
-      <h1>CDEC Annotation Examples</h1>
-      <b>Goal of the Task</b>
+      <h1>Examples</h1>
+      <h3>Goal of the Task</h3>
       <p>You will help us identify the same events from different documents.</p>
-      <br/>
-      <u>What is an event?</u>
+
+      <h3>What is an event?</h3>
       <p>People use text to describe what happen(ed) in the world. These are called events in text. We often use verbs, sometimes even (pro)nouns, and adjectives as <u><b>events</b></u>. For example:</p>
       <p className={style.paragraph_indent}>	It <u><b>rained</b></u> a lot yesterday.</p>
       <p className={style.paragraph_indent}>There was a <u><b>fire</b></u> last night.</p>
       <p className={style.paragraph_indent}>He <u><b>got sick</b></u>. </p>
 
-      <u>How do we know that the two events are the same?</u>
+      <h3>How do we know that the two events are the same?</h3>
       <p>In the following examples (1 to 5), two events are the same.</p>
       <ol>
         <li>
@@ -59,21 +59,21 @@ function Example() {
       // @ts-ignore*/}
       <ol start="6">
         <li>
-            When two events refer to the same thing, they should be the same in terms of meaning, or semantically identical. <br/>
+            When one event is a part of the other larger event, they are not the same. <br/>
             <ol type="a">
               <li>Following  the trial of Mahammed Alameh, the first suspect in the <u><b>bombing</b></u>, investigators discovered a jumble of chemicals, chemistry implements and detonating materials.</li>
               <li>The <u><b>explosion</b></u> killed at least five people. (“bombing” refers to the entire process which starts with making a bomb and ends with destructions, damages and injuries, while “explosion” is a smaller event that occurs in that processes)</li>
             </ol>
         </li>
         <br/>
-        <li>When two events are the same, one event may be the synonym for the other.<br/>
+        <li>Two events are not the same even if they are the same semantically. When one of them refers to something general and the other to something specific, they are different.<br/>
             <ol type="a">
               <li>They obtained the online manual of bomb-<u><b>making</b></u>. (general)</li>
               <li>They <u><b>made</b></u> a bomb in the garage. (specific)</li>
             </ol>
         </li>
         <br/>
-        <li>Sometimes one event may be the pronoun (e.g.,it) or the anaphora (e.g., this, that) of the other, when they are the same.<br/>
+        <li>When one event consists of, or is a member of the other event, they are not the same.<br/>
             <ol type="a">
               <li>The government announced that a 44-year-old man <u><b>died</b></u> from the COVID. (death of a 44-year-old man)</li>
               <li>There are more than 14,300 confirmed COVID cases, and 305 people have <u><b>died</b></u>. (deaths of 305 people)</li>

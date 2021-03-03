@@ -1,15 +1,16 @@
 from django.db import models
 from datetime import datetime
+import uuid
 
 class Document(models.Model):
     name = models.CharField(max_length=200)
-    packID = models.IntegerField(unique = True, null=True)
+    packID = models.UUIDField(unique = True, default=uuid.uuid4, editable=False)
     textPack = models.TextField()
     ontology = models.TextField()
 
 class CrossDoc(models.Model):
     name = models.CharField(max_length=200)
-    packID = models.IntegerField(unique = True, null=True)
+    packID = models.UUIDField(unique = True, default=uuid.uuid4, editable=False)
     idHash = models.CharField(max_length=200, default="")
     textPack = models.TextField()
     ontology = models.TextField(default='')
