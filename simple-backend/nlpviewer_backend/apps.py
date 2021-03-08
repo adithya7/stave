@@ -32,7 +32,7 @@ class MyAppConfig(AppConfig):
             multi_mapping = read_index_file(multi_index_path)
 
             for packID, pack in pack_mapping.items():
-                file_path = pack + ".json"
+                file_path = pack
                 # if does not exist, add it to the database
                 if not Document.objects.filter(packID=packID).exists():
                     with open(os.path.join(pack_folder, file_path)) as f:
@@ -47,7 +47,7 @@ class MyAppConfig(AppConfig):
 
             # read all multi
             for packID, multi in multi_mapping.items():
-                file_path = multi + ".json" 
+                file_path = multi 
                 # if does not exist, add it to the database
                 if not CrossDoc.objects.filter(packID=packID).exists():
                     with open(os.path.join(multi_folder, file_path)) as f:

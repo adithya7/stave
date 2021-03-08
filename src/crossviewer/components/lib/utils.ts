@@ -46,8 +46,8 @@ export function transformMultiPack (rawPack: string, forteID: string): IMultiPac
     const [doc0, doc1] = packData['_pack_ref'];
 
     var annotated_tids : number[] = [];
-    if (forteID in packData['creation_records']) {
-        annotated_tids = packData['creation_records'][forteID]["py/set"];
+    if (forteID in packData['_creation_records']) {
+        annotated_tids = packData['_creation_records'][forteID]["py/set"];
     }
 
     const linkData = packData['links'];
@@ -152,7 +152,7 @@ export function transformMultiPackAnnoViewer (rawPack: string): IMultiPack  {
             return [];
         }
     });
-    const creation_records_data = packData["creation_records"];
+    const creation_records_data = packData["_creation_records"];
     const creation_records: ICreationRecordPerson[] = Object.keys(creation_records_data).map((forteID : any) => (
       {
           forteID: forteID,

@@ -1,4 +1,5 @@
 import hashlib
+from pathlib import PurePath
 
 # return a mapping from external id to file names
 def read_index_file(index_file):
@@ -7,7 +8,7 @@ def read_index_file(index_file):
         for line in f:
             pairs = line.strip().split()
             external_id = int(pairs[0])
-            file_name = pairs[1].split("/")[-1][:-5] # remove .json
+            file_name = PurePath(pairs[1]).stem
             extid_to_name[external_id] = file_name
     return extid_to_name
 
