@@ -36,15 +36,22 @@ export default function IndexAnnotationViewer(props: CrossDocProp) {
 
 
   // @ts-ignore
-  const options = multiPack.creation_records.map((record) => ({
+  let options = multiPack.creation_records.map((record) => ({
     value: record.forteID,
     label: record.forteID,
   }));
+  if (options.length == 0) {
+    options = [{
+      value: "No Annotator",
+      label: "No Annotator",
+    }]
+  }
 
   const [selectedForteID, setSelectedForteID] =  useState(options[0]);
 
   // @ts-ignore
-  const my_annotation = multiPack.creation_records.find(ele => ele.forteID===selectedForteID.value).records;
+  const my_annotation = options[0].value !== "No Annotator"? multiPack.creation_records.find(ele => ele.forteID===selectedForteID.value).records
+  : [];
   let annotationsA = textPackA.annotations;
   let annotationsB = textPackB.annotations;
   annotationsA.sort(function(a, b){return a.span.begin - b.span.begin});

@@ -38,11 +38,11 @@ def logout(request):
 def login_amazon_turk(request):
 
     ## this is only for testing !!!
-    #for key in list(request.session.keys()):
-    #    del request.session[key]
-    #idHashs = CrossDoc.objects.all()[:2]
-    #idHashs = [item.idHash for item in idHashs]
-    #request.session["tasks"] = idHashs[0] + "-" + idHashs[1]
+    for key in list(request.session.keys()):
+       del request.session[key]
+    idHashs = CrossDoc.objects.all()[:2]
+    idHashs = [item.idHash for item in idHashs]
+    request.session["tasks"] = idHashs[0] + "-" + idHashs[1]
 
     passed = check_url_parameters(request.session["tasks"])
 

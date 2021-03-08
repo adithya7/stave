@@ -36,7 +36,7 @@ function AllCrossDocs() {
   // }
 
   if (!docs.length) return null;
-
+  console.log(docs[0]);
   return (
     <div className="content">
       <div className="content_left">
@@ -44,7 +44,7 @@ function AllCrossDocs() {
         {docs.map(d => (
           <ul key={d.id}>
             <li>
-              <Link to={`/crossdocsviewer/${d.nameHash}`}>{d.name}</Link>{' '}
+              <Link to={`/crossdocsviewer/${d.idHash}`}>{d.name}</Link>{' '}
               {/*<button onClick={() => handleDelete(d.id)}>X</button>*/}
             </li>
           </ul>
