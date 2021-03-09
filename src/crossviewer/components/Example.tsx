@@ -66,14 +66,14 @@ function Example() {
             </ol>
         </li>
         <br/>
-        <li>Two events are not the same even if they are the same semantically. When one of them refers to something general and the other to something specific, they are different.<br/>
+        <li>Two events are not the same even if they are the same semantically. The first example refers to the general bomb-making process, while the second one indicates a particular bomb-making event that took place in the garage.<br/>
             <ol type="a">
-              <li>They obtained the online manual of bomb-<u><b>making</b></u>. (general)</li>
-              <li>They <u><b>made</b></u> a bomb in the garage. (specific)</li>
+              <li>They obtained the online manual of bomb-<u><b>making</b></u>. (general bomb-making process)</li>
+              <li>They <u><b>made</b></u> a bomb in the garage. (specific bomb-making event that happened in the specific place)</li>
             </ol>
         </li>
         <br/>
-        <li>When one event consists of, or is a member of the other event, they are not the same.<br/>
+        <li>When one event consists of, or is a member of the other event, they are not the same. The first example refers to the specific death of a 44-year-old man, while the second one refers to the deaths of 305 people.<br/>
             <ol type="a">
               <li>The government announced that a 44-year-old man <u><b>died</b></u> from the COVID. (death of a 44-year-old man)</li>
               <li>There are more than 14,300 confirmed COVID cases, and 305 people have <u><b>died</b></u>. (deaths of 305 people)</li>
@@ -84,7 +84,7 @@ function Example() {
 
 
 
-    </div>
+    </Div>
   );
 }
 

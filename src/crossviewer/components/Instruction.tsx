@@ -19,10 +19,10 @@ function Instruction() {
       <h3>How should I solve this task?</h3>
       <ul>
         <li style={{marginBottom: "5px"}}>When you first start the task, make sure you read through both the left and right documents to get an overall understanding of the two documents.</li>
-        <li style={{marginBottom: "5px"}}>At each step, an event is highlighted on the left document (aka. target event). Now, your goal is to identify events from the right document that are the same as the target event from the left document.</li>
+        <li style={{marginBottom: "5px"}}>At each step, an event is highlighted in a blue box on the left document (aka. <i>target event</i>). Now, your goal is to identify underlined events from the right document that are the same as the target event from the left document.</li>
         <li style={{marginBottom: "5px"}}>Once you select an event from the right document (an annotation), you are presented a few follow-up questions. Make sure you answer these questions to the best of your knowledge.</li>
         <li style={{marginBottom: "5px"}}>If you change your mind while answering the questions, you can click the “Cancel” button to remove your annotation.</li>
-        <li style={{marginBottom: "5px"}}>After you have identified all possible same events from the right document, please use the “Next event” button to move to the next target event on the left document.</li>
+        <li style={{marginBottom: "5px"}}>After you have identified all possible same events from the right document (if any), please use the “Next event” button to move to the next target event on the left document.</li>
       </ul>
 
       <h3>FAQs</h3>
