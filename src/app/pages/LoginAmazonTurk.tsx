@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import style from "../../crossviewer/styles/TextViewer.module.css";
 import ReactModal from "react-modal";
 import ConsentForm from "../components/ConsentFrom";
+import Instruction from "../../crossviewer/components/Instruction";
 
 function LoginAmazonTurk() {
   const [turkID, setTurkID] = useState<string>('');
@@ -11,6 +12,7 @@ function LoginAmazonTurk() {
   const [error, setError] = useState<string>('');
   const [adminError, setAdminError] = useState<string>('');
   const [agreementOpen, setAgreementOpen] = useState<boolean>(true);
+  const [instructionOpen, setInstructionOpen] = useState<boolean> (false);
 
   const history = useHistory();
 
@@ -39,12 +41,20 @@ function LoginAmazonTurk() {
 
   function clickAgree() {
     setAgreementOpen(false);
+    setInstructionOpen(true);
+  }
+  function closeInstruction() {
+    setInstructionOpen(false);
   }
 
   return (
     <div>
       <ReactModal isOpen={agreementOpen} className={style.modal} overlayClassName={style.modal_overlay}>
         <ConsentForm onEvent={clickAgree}/>
+      </ReactModal>
+      <ReactModal isOpen={instructionOpen} className={style.modal} overlayClassName={style.modal_overlay}>
+        <Instruction/>
+        <button onClick={closeInstruction}>close</button>
       </ReactModal>
       <h2>Input your Turk ID</h2>
       <form onSubmit={handleLogin}>
