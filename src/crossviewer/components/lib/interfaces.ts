@@ -1,6 +1,7 @@
 export interface ICrossDocLink {
     // link id is always a number
-    id: number|undefined;
+    // update: changed to string since uuid is too long for javascript
+    id: string|undefined;
     _parent_token: number;
     _child_token: number;
     coref: string;
@@ -8,8 +9,8 @@ export interface ICrossDocLink {
     suggested_answers: ICrossDocLinkAnswer[];
 }
 export interface ICrossDocLinkAnswer {
-    question_id: number;
-    option_id: number;
+    question_id: string;
+    option_id: string;
 }
 
 export interface ICreationRecordPerson {
@@ -32,30 +33,16 @@ export interface IMultiPackQuestion {
 }
 
 export interface IQuestion {
-    question_id: number;
+    question_id: string;
     question_text:string;
     options: IOption[];
 }
 export interface IOption{
-    option_id: number;
+    option_id: string;
     option_text: string;
 }
 export interface IRange {
     start: number;
     end: number;
     color?: string;
-}
-
-export interface IAllRangesForOneType {
-    evidenceTypeID: number;
-    evidenceTypeName: string;
-    parent_ranges: IRange[];
-    child_ranges: IRange[];
-}
-
-export interface I {
-    evidenceTypeID: number;
-    evidenceTypeName: string;
-    parent_ranges: IRange[];
-    child_ranges: IRange[];
 }

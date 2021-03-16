@@ -52,7 +52,7 @@ urlpatterns = [
     path('api/crossdocs/next-crossdoc', crossdoc.next_crossdoc),
     path('api/crossdocs/<str:crossDoc_Hash>', crossdoc.query),
     path('api/crossdocs/<str:crossDoc_Hash>/links/new', crossdoc.new_cross_doc_link),
-    path('api/crossdocs/<str:crossDoc_Hash>/links/<int:link_id>/delete', crossdoc.delete_cross_doc_link),
+    path('api/crossdocs/<str:crossDoc_Hash>/links/<str:link_id>/delete', crossdoc.delete_cross_doc_link),
     
 
     path('admin/', admin.site.urls),

@@ -103,7 +103,6 @@ export function transformMultiPack (rawPack: string, forteID: string): IMultiPac
 
 
 export function transformBackMultiPack(link: ICrossDocLink): any {
-    console.log(link);
     if (!link.hasOwnProperty('id') || link.id === undefined) {
         return {
             'py/state': {

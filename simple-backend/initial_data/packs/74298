@@ -1948,28 +1948,6 @@
         }
       },
       {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 23,
-            "end": 33
-          },
-          "_tid": 453
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 45,
-            "end": 55
-          },
-          "_tid": 454
-        }
-      },
-      {
         "py/object": "edu.cmu.DateSpan",
         "py/state": {
           "_span": {
@@ -2466,7 +2444,7 @@
             "begin": 148,
             "end": 154
           },
-          "_tid": 455
+          "_tid": 462
         }
       },
       {
@@ -4360,20 +4338,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 343,
-            "end": 352
-          },
-          "_tid": 435,
-          "event_type": null,
-          "importance": 0.0679,
-          "event_source": "N"
         }
       },
       {
@@ -14027,6 +13991,9 @@
       }
     ],
     "generics": [],
+    "serialization": {
+      "next_id": 463
+    },
     "_creation_records": {},
     "_field_records": {},
     "_meta": {
@@ -14040,9 +14007,6 @@
     },
     "_DataPack__replace_back_operations": [],
     "_DataPack__processed_original_spans": [],
-    "_DataPack__orig_text_len": 1194,
-    "serialization": {
-      "next_id": 462
-    }
+    "_DataPack__orig_text_len": 1194
   }
 }
