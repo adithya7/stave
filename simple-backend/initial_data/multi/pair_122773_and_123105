@@ -9,7 +9,7 @@
       "py/object": "forte.data.multi_pack.MultiPackMeta",
       "py/state": {
         "pack_name": "pair_122773_and_123105",
-        "_pack_id": 95322608546333122088537687419245758547
+        "_pack_id": 125853679603113943723091136696899681749
       }
     },
     "_pack_ref": [
@@ -32,7 +32,7 @@
       {
         "py/object": "edu.cmu.CorefQuestion",
         "py/state": {
-          "_tid": 0,
+          "_tid": 44634661753209805264685719097151661502,
           "question_body": "Place: Do you think the two events happen at the same place?",
           "options": [
             "Exactly the same",
@@ -45,7 +45,7 @@
       {
         "py/object": "edu.cmu.CorefQuestion",
         "py/state": {
-          "_tid": 1,
+          "_tid": 79762268173896135697914043304993586980,
           "question_body": "Time: Do you think the two events happen at the same time?",
           "options": [
             "Exactly the same",
@@ -58,7 +58,7 @@
       {
         "py/object": "edu.cmu.CorefQuestion",
         "py/state": {
-          "_tid": 2,
+          "_tid": 332891870512044656036331050901760595851,
           "question_body": "Participants: Do you think the two events have the same participants?",
           "options": [
             "Exactly the same",
@@ -71,7 +71,7 @@
       {
         "py/object": "edu.cmu.CorefQuestion",
         "py/state": {
-          "_tid": 3,
+          "_tid": 318716198658047583077339450017641592916,
           "question_body": "Inclusion: Do you think one of the events is part of the other?",
           "options": [
             "Yes, the left event is part of right one",
@@ -84,7 +84,7 @@
       {
         "py/object": "edu.cmu.SuggestionQuestion",
         "py/state": {
-          "_tid": 4,
+          "_tid": 94767558577536120506126489720376741407,
           "question_body": "You consider these two to be different, could you tell us why?",
           "options": [
             "One event is part of the other event.",
@@ -95,9 +95,6 @@
         }
       }
     ],
-    "_MultiPack__default_pack_prefix": "_pack",
-    "serialization": {
-      "next_id": 5
-    }
+    "_MultiPack__default_pack_prefix": "_pack"
   }
 }

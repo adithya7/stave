@@ -58,6 +58,7 @@ export function transformMultiPack (rawPack: string, forteID: string): IMultiPac
             _child_token: a["py/state"]["_child"]["py/tuple"][1],
             coref: a["py/state"]["rel_type"],
         };
+        console.log(link.id);
 
         if (a["py/state"]["rel_type"] !== "suggested" && annotated_tids.includes(a["py/state"]["_tid"])) {
             return [link];

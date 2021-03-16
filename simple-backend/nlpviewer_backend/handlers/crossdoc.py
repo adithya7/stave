@@ -13,6 +13,7 @@ from ..apps import pack_index_path
 from copy import deepcopy
 from ..utils import gen_secret_code, read_index_file
 from datetime import datetime
+import hashlib
 
 
 default_type = "edu.cmu.CrossEventRelation"
@@ -100,9 +101,14 @@ def format_cross_doc_helper(uploaded_link, next_tid):
         link["py/state"]["suggested_answers"].append(item["option_id"])
     return link
 
-def find_and_advance_next_tid(textPackJson):
-    textPackJson['py/state']['serialization']["next_id"] += 1
-    return textPackJson['py/state']['serialization']["next_id"] - 1
+# def find_and_advance_next_tid(textPackJson):
+    # textPackJson['py/state']['serialization']["next_id"] += 1
+    # return textPackJson['py/state']['serialization']["next_id"] - 1
+
+def gen_uuid_for_links(link):
+    digest = int(hashlib.sha1(str(link).encode("utf-8")).hexdigest(), 16)
+    bit_to_shift = digest.bit_length() - 128
+    return uuid.UUID(int= digest >> bit_to_shift).int #28 is just to change to 128 bit
 
 
 def extract_doc_id_from_crossdoc(cross_doc):
@@ -114,6 +120,32 @@ def extract_doc_id_from_crossdoc(cross_doc):
     doc_0 = Document.objects.get(packID=doc_external_id_0)
     doc_1 = Document.objects.get(packID=doc_external_id_1)
     return doc_0, doc_1
+
+def uuid_int_to_string_helper(nested_dictionary):
+    # print(nested_dictionary)
+    for key, value in nested_dictionary.items():
+        if type(value) is dict:
+            uuid_int_to_string_helper(value)
+        elif type(value) is list:
+            for idx, item in enumerate(value):
+                if type(item) is dict:
+                    uuid_int_to_string_helper(item)
+                elif isinstance(item, int) and item.bit_length() >= 65: #128 for uuid
+                    print("converted", str(item))
+                    value[idx] = str(item)
+        else:
+            if isinstance(value, int) and value.bit_length() >= 65: #128 for uuid
+                print("converted", str(value))
+                nested_dictionary[key] = str(value)
+
+
+def convert_uuid_int_to_string(crossDoc):
+    docJson = model_to_dict(crossDoc)
+    textPackJson = json.loads(docJson['textPack'])
+    uuid_int_to_string_helper(textPackJson)
+    crossDoc.textPack = json.dumps(textPackJson)
+    return crossDoc
+
 
 
 def listAll(request):
@@ -129,7 +161,7 @@ def query(request, crossDoc_Hash):
     forteID = request.session.get('forteID', "admin_viewer")
     if "forteID" in request.session:
         request.session["startTime"] = str(datetime.now())
-    to_return = {"crossDocPack":model_to_dict(cross_doc),"_parent": model_to_dict(doc_0), "_child":model_to_dict(doc_1), "forteID":forteID}
+    to_return = {"crossDocPack":model_to_dict(convert_uuid_int_to_string(cross_doc)),"_parent": model_to_dict(doc_0), "_child":model_to_dict(doc_1), "forteID":forteID}
     return JsonResponse(to_return, safe=False)
 
 # called only when user click next event
@@ -160,7 +192,6 @@ def next_crossdoc(request):
 
 
 
-
 def new_cross_doc_link(request, crossDoc_Hash):
 
     crossDoc = CrossDoc.objects.get(idHash=crossDoc_Hash)
@@ -171,9 +202,10 @@ def new_cross_doc_link(request, crossDoc_Hash):
     received_json_data = json.loads(request.body)
     data = received_json_data.get('data')
     link = data["link"]
-    print(link)
+    # print(link)
 
-    link_id = find_and_advance_next_tid(textPackJson)
+    # link_id = find_and_advance_next_tid(textPackJson)
+    link_id = gen_uuid_for_links(link)
     link = format_cross_doc_helper(link, link_id)
 
     # delete possible duplicate link before and the creation records
@@ -193,7 +225,7 @@ def new_cross_doc_link(request, crossDoc_Hash):
     crossDoc.textPack = json.dumps(textPackJson)
     crossDoc.save()
     print(link_id)
-    return JsonResponse({"crossDocPack": model_to_dict(crossDoc)}, safe=False)
+    return JsonResponse({"crossDocPack": model_to_dict(convert_uuid_int_to_string(crossDoc))}, safe=False)
 
 
 
@@ -207,6 +239,7 @@ def delete_cross_doc_link(request, crossDoc_Hash, link_id):
     docJson = model_to_dict(crossDoc)
     textPackJson = json.loads(docJson['textPack'])
     forteID = request.session['forteID']
+    link_id = int(link_id)
 
     deleteIndex = -1
     success = False
@@ -223,5 +256,5 @@ def delete_cross_doc_link(request, crossDoc_Hash, link_id):
         crossDoc.textPack = json.dumps(textPackJson)
         crossDoc.save()
 
-    return JsonResponse({"crossDocPack": model_to_dict(crossDoc), "update_success": success}, safe=False)
+    return JsonResponse({"crossDocPack": model_to_dict(convert_uuid_int_to_string(crossDoc)), "update_success": success}, safe=False)
 

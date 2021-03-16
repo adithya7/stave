@@ -4748,28 +4748,6 @@
         }
       },
       {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 7,
-            "end": 11
-          },
-          "_tid": 1085
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 45,
-            "end": 50
-          },
-          "_tid": 1086
-        }
-      },
-      {
         "py/object": "edu.cmu.DateSpan",
         "py/state": {
           "_span": {
@@ -5671,6 +5649,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 151,
+            "end": 156
+          },
+          "_tid": 1108
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -5727,17 +5716,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 154,
-            "end": 159
-          },
-          "_tid": 1088
         }
       },
       {
@@ -11611,6 +11589,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 677,
+            "end": 686
+          },
+          "_tid": 1097
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -11667,6 +11656,17 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 687,
+            "end": 698
+          },
+          "_tid": 1098
         }
       },
       {
@@ -11733,24 +11733,10 @@
         "py/state": {
           "_span": {
             "py/object": "forte.data.span.Span",
-            "begin": 690,
-            "end": 701
-          },
-          "_tid": 1089
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
             "begin": 699,
             "end": 705
           },
-          "_tid": 1033,
-          "event_type": null,
-          "importance": 0.0241,
-          "event_source": "JA"
+          "_tid": 1099
         }
       },
       {
@@ -14324,10 +14310,10 @@
         "py/state": {
           "_span": {
             "py/object": "forte.data.span.Span",
-            "begin": 925,
+            "begin": 922,
             "end": 932
           },
-          "_tid": 1090
+          "_tid": 1100
         }
       },
       {
@@ -15020,6 +15006,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 998,
+            "end": 1003
+          },
+          "_tid": 1101
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -15076,17 +15073,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 1001,
-            "end": 1006
-          },
-          "_tid": 1091
         }
       },
       {
@@ -16121,6 +16107,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 1086,
+            "end": 1092
+          },
+          "_tid": 1102
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -16177,17 +16174,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 1089,
-            "end": 1095
-          },
-          "_tid": 1092
         }
       },
       {
@@ -16616,6 +16602,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 1134,
+            "end": 1145
+          },
+          "_tid": 1103
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -16672,17 +16669,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 1137,
-            "end": 1148
-          },
-          "_tid": 1093
         }
       },
       {
@@ -20904,10 +20890,10 @@
         "py/state": {
           "_span": {
             "py/object": "forte.data.span.Span",
-            "begin": 1489,
-            "end": 1499
+            "begin": 1486,
+            "end": 1496
           },
-          "_tid": 1094
+          "_tid": 1107
         }
       },
       {
@@ -24148,6 +24134,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 1773,
+            "end": 1784
+          },
+          "_tid": 1104
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -24204,17 +24201,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 1776,
-            "end": 1787
-          },
-          "_tid": 1095
         }
       },
       {
@@ -24569,6 +24555,17 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 1820,
+            "end": 1826
+          },
+          "_tid": 1106
         }
       },
       {
@@ -32745,6 +32742,17 @@
         }
       },
       {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 2567,
+            "end": 2578
+          },
+          "_tid": 1105
+        }
+      },
+      {
         "py/object": "ft.onto.base_ontology.Token",
         "py/state": {
           "_span": {
@@ -32801,17 +32809,6 @@
           "is_root": null,
           "ud_features": {},
           "ud_misc": {}
-        }
-      },
-      {
-        "py/object": "edu.cmu.EventMention",
-        "py/state": {
-          "_span": {
-            "py/object": "forte.data.span.Span",
-            "begin": 2570,
-            "end": 2581
-          },
-          "_tid": 1096
         }
       },
       {
@@ -34062,6 +34059,9 @@
       }
     ],
     "generics": [],
+    "serialization": {
+      "next_id": 1109
+    },
     "_creation_records": {},
     "_field_records": {},
     "_meta": {
@@ -34075,9 +34075,6 @@
     },
     "_DataPack__replace_back_operations": [],
     "_DataPack__processed_original_spans": [],
-    "_DataPack__orig_text_len": 2712,
-    "serialization": {
-      "next_id": 1097
-    }
+    "_DataPack__orig_text_len": 2712
   }
 }
