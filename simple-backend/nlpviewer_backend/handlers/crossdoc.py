@@ -131,11 +131,11 @@ def uuid_int_to_string_helper(nested_dictionary):
                 if type(item) is dict:
                     uuid_int_to_string_helper(item)
                 elif isinstance(item, int) and item.bit_length() >= 65: #128 for uuid
-                    print("converted", str(item))
+                    #print("converted", str(item))
                     value[idx] = str(item)
         else:
             if isinstance(value, int) and value.bit_length() >= 65: #128 for uuid
-                print("converted", str(value))
+                #print("converted", str(value))
                 nested_dictionary[key] = str(value)
 
 
