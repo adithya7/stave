@@ -78,11 +78,11 @@ export default function CrossViewer(props: CrossDocProp) {
 
   let dynamic_instruction = "";
   if (BnowOnEventIndex===-1){
-    dynamic_instruction = "Click events on the right if they are coreferential to the left event. Or click next event if there is no more."
+    dynamic_instruction = "Click on the (red) underlined words in right document if they refer to the same event as the words in blue box on the left document. If there are none, click 'Next event' button to move to the next word on the left document."
   } else if (nowQuestionIndex !== -1) {
-    dynamic_instruction = "Answer why you think these two events are coreferential."
+    dynamic_instruction = "Answer why you think these two refer to the same event."
   } else if (nowSuggestedQuestionIndex !== -1) {
-    dynamic_instruction = "SUGGESTED PAIR: Answer why you don't think these two events are corefential."
+    dynamic_instruction = "Answer why you think these two are not the same events."
   }
 
   const [instructionOpen, setInstructionOpen] = useState<boolean>(false);
