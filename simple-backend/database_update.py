@@ -48,7 +48,7 @@ def add_multipack(name, textPack, ontology, packID, rewrite=False):
     cursor = con.cursor()
     textPack = json.dumps(textPack)
     ontology = json.dumps(ontology)
-    idHash = gen_hash(name)
+    idHash = gen_hash(packID)
 
     result = cursor.execute(
         "SELECT * FROM nlpviewer_backend_crossdoc WHERE packID=:id",
