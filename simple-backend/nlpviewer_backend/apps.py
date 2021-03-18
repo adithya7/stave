@@ -56,7 +56,7 @@ class MyAppConfig(AppConfig):
                         new_object = CrossDoc()
                         new_object.name = multi
                         new_object.packID = packID
-                        new_object.idHash = gen_hash(packID)
+                        new_object.idHash = gen_hash(multi)
                         new_object.textPack = json.dumps(text_pack)
                         new_object.ontology = json.dumps(multi_ontology)
                         new_object.save()
