@@ -1,0 +1,6957 @@
+{
+  "py/object": "forte.data.data_pack.DataPack",
+  "py/state": {
+    "links": [
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 9,
+          "_child": 6,
+          "_tid": 31,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 9,
+          "_child": 7,
+          "_tid": 32,
+          "dep_label": null,
+          "rel_type": "amod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 9,
+          "_child": 8,
+          "_tid": 33,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 9,
+          "_tid": 34,
+          "dep_label": null,
+          "rel_type": "nsubj:pass"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 10,
+          "_tid": 35,
+          "dep_label": null,
+          "rel_type": "aux:pass"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 30,
+          "_child": 11,
+          "_tid": 36,
+          "dep_label": null,
+          "rel_type": "root"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 13,
+          "_child": 12,
+          "_tid": 37,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 13,
+          "_tid": 38,
+          "dep_label": null,
+          "rel_type": "obl:tmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 16,
+          "_child": 14,
+          "_tid": 39,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 16,
+          "_child": 15,
+          "_tid": 40,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 13,
+          "_child": 16,
+          "_tid": 41,
+          "dep_label": null,
+          "rel_type": "appos"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 16,
+          "_child": 17,
+          "_tid": 42,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 21,
+          "_child": 18,
+          "_tid": 43,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 21,
+          "_child": 19,
+          "_tid": 44,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 21,
+          "_child": 20,
+          "_tid": 45,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 21,
+          "_tid": 46,
+          "dep_label": null,
+          "rel_type": "obl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 22,
+          "_tid": 47,
+          "dep_label": null,
+          "rel_type": "obl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 26,
+          "_child": 23,
+          "_tid": 48,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 26,
+          "_child": 24,
+          "_tid": 49,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 26,
+          "_child": 25,
+          "_tid": 50,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 26,
+          "_tid": 51,
+          "dep_label": null,
+          "rel_type": "obl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 29,
+          "_child": 27,
+          "_tid": 52,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 29,
+          "_child": 28,
+          "_tid": 53,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 26,
+          "_child": 29,
+          "_tid": 54,
+          "dep_label": null,
+          "rel_type": "nmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 11,
+          "_child": 30,
+          "_tid": 55,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 59,
+          "_child": 57,
+          "_tid": 81,
+          "dep_label": null,
+          "rel_type": "nsubj:pass"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 59,
+          "_child": 58,
+          "_tid": 82,
+          "dep_label": null,
+          "rel_type": "aux:pass"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 80,
+          "_child": 59,
+          "_tid": 83,
+          "dep_label": null,
+          "rel_type": "root"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 62,
+          "_child": 60,
+          "_tid": 84,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 62,
+          "_child": 61,
+          "_tid": 85,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 59,
+          "_child": 62,
+          "_tid": 86,
+          "dep_label": null,
+          "rel_type": "obl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 62,
+          "_child": 63,
+          "_tid": 87,
+          "dep_label": null,
+          "rel_type": "nmod:tmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 63,
+          "_child": 64,
+          "_tid": 88,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 63,
+          "_child": 65,
+          "_tid": 89,
+          "dep_label": null,
+          "rel_type": "appos"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 65,
+          "_child": 66,
+          "_tid": 90,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 65,
+          "_child": 67,
+          "_tid": 91,
+          "dep_label": null,
+          "rel_type": "appos"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 67,
+          "_child": 68,
+          "_tid": 92,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 73,
+          "_child": 69,
+          "_tid": 93,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 73,
+          "_child": 70,
+          "_tid": 94,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 72,
+          "_child": 71,
+          "_tid": 95,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 73,
+          "_child": 72,
+          "_tid": 96,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 62,
+          "_child": 73,
+          "_tid": 97,
+          "dep_label": null,
+          "rel_type": "nmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 75,
+          "_child": 74,
+          "_tid": 98,
+          "dep_label": null,
+          "rel_type": "nsubj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 73,
+          "_child": 75,
+          "_tid": 99,
+          "dep_label": null,
+          "rel_type": "acl:relcl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 77,
+          "_child": 76,
+          "_tid": 100,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 75,
+          "_child": 77,
+          "_tid": 101,
+          "dep_label": null,
+          "rel_type": "obj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 79,
+          "_child": 78,
+          "_tid": 102,
+          "dep_label": null,
+          "rel_type": "mark"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 75,
+          "_child": 79,
+          "_tid": 103,
+          "dep_label": null,
+          "rel_type": "xcomp"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 59,
+          "_child": 80,
+          "_tid": 104,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 107,
+          "_child": 106,
+          "_tid": 125,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 109,
+          "_child": 107,
+          "_tid": 126,
+          "dep_label": null,
+          "rel_type": "nsubj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 109,
+          "_child": 108,
+          "_tid": 127,
+          "dep_label": null,
+          "rel_type": "aux"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 124,
+          "_child": 109,
+          "_tid": 128,
+          "dep_label": null,
+          "rel_type": "root"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 110,
+          "_tid": 129,
+          "dep_label": null,
+          "rel_type": "cc"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 113,
+          "_child": 111,
+          "_tid": 130,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 113,
+          "_child": 112,
+          "_tid": 131,
+          "dep_label": null,
+          "rel_type": "amod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 113,
+          "_tid": 132,
+          "dep_label": null,
+          "rel_type": "obl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 114,
+          "_tid": 133,
+          "dep_label": null,
+          "rel_type": "nsubj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 115,
+          "_tid": 134,
+          "dep_label": null,
+          "rel_type": "cop"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 117,
+          "_child": 116,
+          "_tid": 135,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 117,
+          "_tid": 136,
+          "dep_label": null,
+          "rel_type": "nmod:npmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 118,
+          "_tid": 137,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 119,
+          "_tid": 138,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 109,
+          "_child": 120,
+          "_tid": 139,
+          "dep_label": null,
+          "rel_type": "conj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 123,
+          "_child": 121,
+          "_tid": 140,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 123,
+          "_child": 122,
+          "_tid": 141,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 120,
+          "_child": 123,
+          "_tid": 142,
+          "dep_label": null,
+          "rel_type": "nmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 109,
+          "_child": 124,
+          "_tid": 143,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 146,
+          "_child": 145,
+          "_tid": 173,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 159,
+          "_child": 146,
+          "_tid": 174,
+          "dep_label": null,
+          "rel_type": "nsubj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 146,
+          "_child": 147,
+          "_tid": 175,
+          "dep_label": null,
+          "rel_type": "flat"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 146,
+          "_child": 148,
+          "_tid": 176,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 150,
+          "_child": 149,
+          "_tid": 177,
+          "dep_label": null,
+          "rel_type": "nsubj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 146,
+          "_child": 150,
+          "_tid": 178,
+          "dep_label": null,
+          "rel_type": "acl:relcl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 152,
+          "_child": 151,
+          "_tid": 179,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 150,
+          "_child": 152,
+          "_tid": 180,
+          "dep_label": null,
+          "rel_type": "obj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 157,
+          "_child": 153,
+          "_tid": 181,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 157,
+          "_child": 154,
+          "_tid": 182,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 157,
+          "_child": 155,
+          "_tid": 183,
+          "dep_label": null,
+          "rel_type": "nummod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 157,
+          "_child": 156,
+          "_tid": 184,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 152,
+          "_child": 157,
+          "_tid": 185,
+          "dep_label": null,
+          "rel_type": "nmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 159,
+          "_child": 158,
+          "_tid": 186,
+          "dep_label": null,
+          "rel_type": "cop"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 172,
+          "_child": 159,
+          "_tid": 187,
+          "dep_label": null,
+          "rel_type": "root"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 162,
+          "_child": 160,
+          "_tid": 188,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 162,
+          "_child": 161,
+          "_tid": 189,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 159,
+          "_child": 162,
+          "_tid": 190,
+          "dep_label": null,
+          "rel_type": "obl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 164,
+          "_child": 163,
+          "_tid": 191,
+          "dep_label": null,
+          "rel_type": "nsubj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 162,
+          "_child": 164,
+          "_tid": 192,
+          "dep_label": null,
+          "rel_type": "acl:relcl"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 166,
+          "_child": 165,
+          "_tid": 193,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 164,
+          "_child": 166,
+          "_tid": 194,
+          "dep_label": null,
+          "rel_type": "obj"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 171,
+          "_child": 167,
+          "_tid": 195,
+          "dep_label": null,
+          "rel_type": "case"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 171,
+          "_child": 168,
+          "_tid": 196,
+          "dep_label": null,
+          "rel_type": "det"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 171,
+          "_child": 169,
+          "_tid": 197,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 171,
+          "_child": 170,
+          "_tid": 198,
+          "dep_label": null,
+          "rel_type": "compound"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 166,
+          "_child": 171,
+          "_tid": 199,
+          "dep_label": null,
+          "rel_type": "nmod"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Dependency",
+        "py/state": {
+          "_parent": 159,
+          "_child": 172,
+          "_tid": 200,
+          "dep_label": null,
+          "rel_type": "punct"
+        }
+      }
+    ],
+    "groups": [],
+    "_text": "Title: 13 coal miners trapped in West Virginia mine\n\nDate: January  3, 2006\n\n13 American coal miners were trapped 2 miles (3 kilometers) inside the Sago coal mine in the US state of West Virginia. They were trapped since 6:40 am Eastern, Monday, January 2 following a methane gas explosion which caused the shaft to collapse. Rescue operations have commenced and at last report they were 1,400 feet from the location of the miners. Governor Joe Manchin, who lost an uncle in a 1968 mining disaster is there along with families who held a vigil in the Sago Baptist Church.",
+    "annotations": [
+      {
+        "py/object": "edu.cmu.TitleSpan",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 0,
+            "end": 51
+          },
+          "_tid": 0
+        }
+      },
+      {
+        "py/object": "edu.cmu.DateSpan",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 53,
+            "end": 75
+          },
+          "_tid": 1
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 77,
+            "end": 79
+          },
+          "_tid": 6,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "13",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Sentence",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 77,
+            "end": 196
+          },
+          "_tid": 5,
+          "speaker": null,
+          "part_id": null,
+          "sentiment": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.BodySpan",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 77,
+            "end": 571
+          },
+          "_tid": 2
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 80,
+            "end": 88
+          },
+          "_tid": 209,
+          "ner_type": "MISC"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 80,
+            "end": 88
+          },
+          "_tid": 7,
+          "pos": "ADJ",
+          "ud_xpos": "JJ",
+          "lemma": "american",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U6",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          24,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "UwAAAC0AAABNAAAASQAAAFMAAABDAAAA"
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 89,
+            "end": 93
+          },
+          "_tid": 8,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "coal",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 94,
+            "end": 100
+          },
+          "_tid": 9,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "miner",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 101,
+            "end": 105
+          },
+          "_tid": 10,
+          "pos": "AUX",
+          "ud_xpos": "VBD",
+          "lemma": "be",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 106,
+            "end": 113
+          },
+          "_tid": 222,
+          "event_type": null,
+          "importance": 0.312,
+          "event_source": "JA"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 106,
+            "end": 113
+          },
+          "_tid": 11,
+          "pos": "VERB",
+          "ud_xpos": "VBN",
+          "lemma": "trap",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 114,
+            "end": 115
+          },
+          "_tid": 12,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "2",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 116,
+            "end": 121
+          },
+          "_tid": 13,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "mile",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 122,
+            "end": 123
+          },
+          "_tid": 14,
+          "pos": "PUNCT",
+          "ud_xpos": "-LRB-",
+          "lemma": "(",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 123,
+            "end": 124
+          },
+          "_tid": 15,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "3",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 125,
+            "end": 135
+          },
+          "_tid": 16,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "kilometer",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 135,
+            "end": 136
+          },
+          "_tid": 17,
+          "pos": "PUNCT",
+          "ud_xpos": "-RRB-",
+          "lemma": ")",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 137,
+            "end": 143
+          },
+          "_tid": 18,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "inside",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 144,
+            "end": 147
+          },
+          "_tid": 19,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "the",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 148,
+            "end": 152
+          },
+          "_tid": 210,
+          "ner_type": "LOC"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 148,
+            "end": 152
+          },
+          "_tid": 20,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Sago",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "UwAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 153,
+            "end": 157
+          },
+          "_tid": 21,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "coal",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 158,
+            "end": 162
+          },
+          "_tid": 22,
+          "pos": "PRON",
+          "ud_xpos": "PRP",
+          "lemma": "mine",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 163,
+            "end": 165
+          },
+          "_tid": 23,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "in",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 166,
+            "end": 169
+          },
+          "_tid": 24,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "the",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 170,
+            "end": 172
+          },
+          "_tid": 211,
+          "ner_type": "LOC"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 170,
+            "end": 172
+          },
+          "_tid": 25,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "US",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "UwAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 173,
+            "end": 178
+          },
+          "_tid": 26,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "state",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 179,
+            "end": 181
+          },
+          "_tid": 27,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "of",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 182,
+            "end": 186
+          },
+          "_tid": 28,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "West",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "QgAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 182,
+            "end": 195
+          },
+          "_tid": 212,
+          "ner_type": "LOC"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 187,
+            "end": 195
+          },
+          "_tid": 29,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Virginia",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "RQAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 195,
+            "end": 196
+          },
+          "_tid": 30,
+          "pos": "PUNCT",
+          "ud_xpos": ".",
+          "lemma": ".",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 197,
+            "end": 201
+          },
+          "_tid": 57,
+          "pos": "PRON",
+          "ud_xpos": "PRP",
+          "lemma": "they",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Sentence",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 197,
+            "end": 325
+          },
+          "_tid": 56,
+          "speaker": null,
+          "part_id": null,
+          "sentiment": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 202,
+            "end": 206
+          },
+          "_tid": 58,
+          "pos": "AUX",
+          "ud_xpos": "VBD",
+          "lemma": "be",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 207,
+            "end": 214
+          },
+          "_tid": 223,
+          "event_type": null,
+          "importance": 0.312,
+          "event_source": "JA"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 207,
+            "end": 214
+          },
+          "_tid": 59,
+          "pos": "VERB",
+          "ud_xpos": "VBN",
+          "lemma": "trap",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 215,
+            "end": 220
+          },
+          "_tid": 60,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "since",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 221,
+            "end": 225
+          },
+          "_tid": 61,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "6:40",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 226,
+            "end": 228
+          },
+          "_tid": 62,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "am",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 229,
+            "end": 236
+          },
+          "_tid": 213,
+          "ner_type": "MISC"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 229,
+            "end": 236
+          },
+          "_tid": 63,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Eastern",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U6",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          24,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "UwAAAC0AAABNAAAASQAAAFMAAABDAAAA"
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 236,
+            "end": 237
+          },
+          "_tid": 64,
+          "pos": "PUNCT",
+          "ud_xpos": ",",
+          "lemma": ",",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 238,
+            "end": 244
+          },
+          "_tid": 65,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Monday",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 244,
+            "end": 245
+          },
+          "_tid": 66,
+          "pos": "PUNCT",
+          "ud_xpos": ",",
+          "lemma": ",",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 246,
+            "end": 253
+          },
+          "_tid": 67,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "January",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 254,
+            "end": 255
+          },
+          "_tid": 68,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "2",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 256,
+            "end": 265
+          },
+          "_tid": 69,
+          "pos": "VERB",
+          "ud_xpos": "VBG",
+          "lemma": "follow",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 266,
+            "end": 267
+          },
+          "_tid": 70,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "a",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 268,
+            "end": 275
+          },
+          "_tid": 71,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "methane",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 276,
+            "end": 279
+          },
+          "_tid": 72,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "gas",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 280,
+            "end": 289
+          },
+          "_tid": 225,
+          "event_type": null,
+          "importance": 0.164,
+          "event_source": "LN"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 280,
+            "end": 289
+          },
+          "_tid": 73,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "explosion",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 290,
+            "end": 295
+          },
+          "_tid": 74,
+          "pos": "PRON",
+          "ud_xpos": "WDT",
+          "lemma": "which",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 296,
+            "end": 302
+          },
+          "_tid": 226,
+          "event_type": null,
+          "importance": 0.1,
+          "event_source": "NJA"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 296,
+            "end": 302
+          },
+          "_tid": 75,
+          "pos": "VERB",
+          "ud_xpos": "VBD",
+          "lemma": "cause",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 303,
+            "end": 306
+          },
+          "_tid": 76,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "the",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 307,
+            "end": 312
+          },
+          "_tid": 77,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "shaft",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 313,
+            "end": 315
+          },
+          "_tid": 78,
+          "pos": "PART",
+          "ud_xpos": "TO",
+          "lemma": "to",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 316,
+            "end": 324
+          },
+          "_tid": 227,
+          "event_type": null,
+          "importance": 0.134,
+          "event_source": "A"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 316,
+            "end": 324
+          },
+          "_tid": 79,
+          "pos": "VERB",
+          "ud_xpos": "VB",
+          "lemma": "collapse",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 324,
+            "end": 325
+          },
+          "_tid": 80,
+          "pos": "PUNCT",
+          "ud_xpos": ".",
+          "lemma": ".",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 326,
+            "end": 332
+          },
+          "_tid": 228,
+          "event_type": null,
+          "importance": 0.146,
+          "event_source": "LN"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 326,
+            "end": 332
+          },
+          "_tid": 106,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "rescue",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Sentence",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 326,
+            "end": 431
+          },
+          "_tid": 105,
+          "speaker": null,
+          "part_id": null,
+          "sentiment": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 333,
+            "end": 343
+          },
+          "_tid": 235
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 333,
+            "end": 343
+          },
+          "_tid": 107,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "operation",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 344,
+            "end": 348
+          },
+          "_tid": 108,
+          "pos": "AUX",
+          "ud_xpos": "VBP",
+          "lemma": "have",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 349,
+            "end": 358
+          },
+          "_tid": 109,
+          "pos": "VERB",
+          "ud_xpos": "VBN",
+          "lemma": "commence",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 359,
+            "end": 362
+          },
+          "_tid": 110,
+          "pos": "CCONJ",
+          "ud_xpos": "CC",
+          "lemma": "and",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 363,
+            "end": 365
+          },
+          "_tid": 111,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "at",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 366,
+            "end": 370
+          },
+          "_tid": 112,
+          "pos": "ADJ",
+          "ud_xpos": "JJ",
+          "lemma": "last",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 371,
+            "end": 377
+          },
+          "_tid": 113,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "report",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 378,
+            "end": 382
+          },
+          "_tid": 114,
+          "pos": "PRON",
+          "ud_xpos": "PRP",
+          "lemma": "they",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 383,
+            "end": 387
+          },
+          "_tid": 115,
+          "pos": "AUX",
+          "ud_xpos": "VBD",
+          "lemma": "be",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 388,
+            "end": 393
+          },
+          "_tid": 116,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "1,400",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 394,
+            "end": 398
+          },
+          "_tid": 117,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "foot",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 399,
+            "end": 403
+          },
+          "_tid": 118,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "from",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 404,
+            "end": 407
+          },
+          "_tid": 119,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "the",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 408,
+            "end": 416
+          },
+          "_tid": 120,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "location",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 417,
+            "end": 419
+          },
+          "_tid": 121,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "of",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 420,
+            "end": 423
+          },
+          "_tid": 122,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "the",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 424,
+            "end": 430
+          },
+          "_tid": 123,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "miner",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 430,
+            "end": 431
+          },
+          "_tid": 124,
+          "pos": "PUNCT",
+          "ud_xpos": ".",
+          "lemma": ".",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 432,
+            "end": 440
+          },
+          "_tid": 145,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Governor",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Sentence",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 432,
+            "end": 571
+          },
+          "_tid": 144,
+          "speaker": null,
+          "part_id": null,
+          "sentiment": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 441,
+            "end": 444
+          },
+          "_tid": 146,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Joe",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "QgAAAC0AAABQAAAARQAAAFIAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 441,
+            "end": 452
+          },
+          "_tid": 214,
+          "ner_type": "PER"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 445,
+            "end": 452
+          },
+          "_tid": 147,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Manchin",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "RQAAAC0AAABQAAAARQAAAFIAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 452,
+            "end": 453
+          },
+          "_tid": 148,
+          "pos": "PUNCT",
+          "ud_xpos": ",",
+          "lemma": ",",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 454,
+            "end": 457
+          },
+          "_tid": 149,
+          "pos": "PRON",
+          "ud_xpos": "WP",
+          "lemma": "who",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 458,
+            "end": 462
+          },
+          "_tid": 230,
+          "event_type": null,
+          "importance": 0.0867,
+          "event_source": "JA"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 458,
+            "end": 462
+          },
+          "_tid": 150,
+          "pos": "VERB",
+          "ud_xpos": "VBD",
+          "lemma": "lose",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 463,
+            "end": 465
+          },
+          "_tid": 151,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "a",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 466,
+            "end": 471
+          },
+          "_tid": 152,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "uncle",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 472,
+            "end": 474
+          },
+          "_tid": 153,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "in",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 475,
+            "end": 476
+          },
+          "_tid": 154,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "a",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 477,
+            "end": 481
+          },
+          "_tid": 155,
+          "pos": "NUM",
+          "ud_xpos": "CD",
+          "lemma": "1968",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 482,
+            "end": 488
+          },
+          "_tid": 156,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "mining",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 489,
+            "end": 497
+          },
+          "_tid": 233
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 489,
+            "end": 497
+          },
+          "_tid": 157,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "disaster",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 498,
+            "end": 500
+          },
+          "_tid": 158,
+          "pos": "AUX",
+          "ud_xpos": "VBZ",
+          "lemma": "be",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 501,
+            "end": 506
+          },
+          "_tid": 159,
+          "pos": "ADV",
+          "ud_xpos": "RB",
+          "lemma": "there",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 507,
+            "end": 512
+          },
+          "_tid": 160,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "along",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 513,
+            "end": 517
+          },
+          "_tid": 161,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "with",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 518,
+            "end": 526
+          },
+          "_tid": 162,
+          "pos": "NOUN",
+          "ud_xpos": "NNS",
+          "lemma": "family",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 527,
+            "end": 530
+          },
+          "_tid": 163,
+          "pos": "PRON",
+          "ud_xpos": "WP",
+          "lemma": "who",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 531,
+            "end": 535
+          },
+          "_tid": 164,
+          "pos": "VERB",
+          "ud_xpos": "VBD",
+          "lemma": "hold",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 536,
+            "end": 537
+          },
+          "_tid": 165,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "a",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "edu.cmu.EventMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 538,
+            "end": 543
+          },
+          "_tid": 234
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 538,
+            "end": 543
+          },
+          "_tid": 166,
+          "pos": "NOUN",
+          "ud_xpos": "NN",
+          "lemma": "vigil",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 544,
+            "end": 546
+          },
+          "_tid": 167,
+          "pos": "ADP",
+          "ud_xpos": "IN",
+          "lemma": "in",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 547,
+            "end": 550
+          },
+          "_tid": 168,
+          "pos": "DET",
+          "ud_xpos": "DT",
+          "lemma": "the",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 551,
+            "end": 555
+          },
+          "_tid": 169,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Sago",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "QgAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.EntityMention",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 551,
+            "end": 570
+          },
+          "_tid": 215,
+          "ner_type": "LOC"
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 556,
+            "end": 563
+          },
+          "_tid": 170,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Baptist",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "SQAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 564,
+            "end": 570
+          },
+          "_tid": 171,
+          "pos": "PROPN",
+          "ud_xpos": "NNP",
+          "lemma": "Church",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U5",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          20,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "RQAAAC0AAABMAAAATwAAAEMAAAA="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      },
+      {
+        "py/object": "ft.onto.base_ontology.Token",
+        "py/state": {
+          "_span": {
+            "py/object": "forte.data.span.Span",
+            "begin": 570,
+            "end": 571
+          },
+          "_tid": 172,
+          "pos": "PUNCT",
+          "ud_xpos": ".",
+          "lemma": ".",
+          "chunk": null,
+          "ner": {
+            "py/reduce": [
+              {
+                "py/function": "numpy.core.multiarray.scalar"
+              },
+              {
+                "py/tuple": [
+                  {
+                    "py/reduce": [
+                      {
+                        "py/type": "numpy.dtype"
+                      },
+                      {
+                        "py/tuple": [
+                          "U1",
+                          0,
+                          1
+                        ]
+                      },
+                      {
+                        "py/tuple": [
+                          3,
+                          "<",
+                          null,
+                          null,
+                          null,
+                          4,
+                          4,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "py/b64": "TwAAAA=="
+                  }
+                ]
+              }
+            ]
+          },
+          "sense": null,
+          "is_root": null,
+          "ud_features": {},
+          "ud_misc": {}
+        }
+      }
+    ],
+    "generics": [],
+    "DataPack__replace_back_operations": [],
+    "DataPack__processed_original_spans": [],
+    "DataPack__orig_text_len": 571,
+    "serialization": {
+      "next_id": 237
+    },
+    "_creation_records": {},
+    "_field_records": {},
+    "_meta": {
+      "py/object": "forte.data.data_pack.Meta",
+      "py/state": {
+        "pack_name": "29715",
+        "_pack_id": 281267411286059785710803152439902878965,
+        "language": "eng",
+        "span_unit": "character"
+      }
+    }
+  }
+}

@@ -110,10 +110,12 @@ export default function CrossViewer(props: CrossDocProp) {
       _parent_token: +nowAOnEvent.id,
       _child_token: +all_events_B[BnowOnEventIndex].id,
       coref: whetherCoref? "coref" : "not-coref",
+      // @ts-ignore
       coref_answers: new_answers.map((option_id, index) => ({
         question_id: multiPackQuestion.coref_questions[index].question_id,
         option_id: option_id
       })),
+      // @ts-ignore
       suggested_answers: new_suggested_answers.map((option_id, index) => ({
         question_id: multiPackQuestion.suggest_questions[index].question_id,
         option_id: option_id

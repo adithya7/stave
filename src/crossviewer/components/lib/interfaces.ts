@@ -10,7 +10,7 @@ export interface ICrossDocLink {
 }
 export interface ICrossDocLinkAnswer {
     question_id: string;
-    option_id: string;
+    option_id: number;
 }
 
 export interface ICreationRecordPerson {
@@ -38,7 +38,7 @@ export interface IQuestion {
     options: IOption[];
 }
 export interface IOption{
-    option_id: string;
+    option_id: number;
     option_text: string;
 }
 export interface IRange {

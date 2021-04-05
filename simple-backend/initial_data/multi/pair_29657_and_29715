@@ -1,0 +1,100 @@
+{
+  "py/object": "forte.data.multi_pack.MultiPack",
+  "py/state": {
+    "_creation_records": {},
+    "_field_records": {},
+    "links": [],
+    "groups": [],
+    "_meta": {
+      "py/object": "forte.data.multi_pack.MultiPackMeta",
+      "py/state": {
+        "pack_name": "pair_29657_and_29715",
+        "_pack_id": 180010006113000827690489458835404649746
+      }
+    },
+    "_pack_ref": [
+      163765186524229859076094413575527986031,
+      281267411286059785710803152439902878965
+    ],
+    "_inverse_pack_ref": {
+      "163765186524229859076094413575527986031": 0,
+      "281267411286059785710803152439902878965": 1
+    },
+    "_pack_names": [
+      "_pack_163765186524229859076094413575527986031",
+      "_pack_281267411286059785710803152439902878965"
+    ],
+    "_name_index": {
+      "_pack_163765186524229859076094413575527986031": 0,
+      "_pack_281267411286059785710803152439902878965": 1
+    },
+    "generics": [
+      {
+        "py/object": "edu.cmu.CorefQuestion",
+        "py/state": {
+          "_tid": 182553570804847518000368039179761493916,
+          "question_body": "Place: Do you think the two events happen at the same place?",
+          "options": [
+            "Exactly the same",
+            "The places overlap",
+            "Not at all",
+            "Cannot determine"
+          ]
+        }
+      },
+      {
+        "py/object": "edu.cmu.CorefQuestion",
+        "py/state": {
+          "_tid": 160599889321730236253946983309599108824,
+          "question_body": "Time: Do you think the two events happen at the same time?",
+          "options": [
+            "Exactly the same",
+            "They overlap in time",
+            "Not at all",
+            "Cannot determine"
+          ]
+        }
+      },
+      {
+        "py/object": "edu.cmu.CorefQuestion",
+        "py/state": {
+          "_tid": 304550866189333782035595389304687756660,
+          "question_body": "Participants: Do you think the two events have the same participants?",
+          "options": [
+            "Exactly the same",
+            "They share some participants",
+            "Not at all",
+            "Cannot determine"
+          ]
+        }
+      },
+      {
+        "py/object": "edu.cmu.CorefQuestion",
+        "py/state": {
+          "_tid": 68359004593579435440045822302216406299,
+          "question_body": "Inclusion: Do you think one of the events is part of the other?",
+          "options": [
+            "Yes, the left event is part of right one",
+            "Yes, the right event is part of left one",
+            "No, they are exactly the same",
+            "Cannot determine"
+          ]
+        }
+      },
+      {
+        "py/object": "edu.cmu.SuggestionQuestion",
+        "py/state": {
+          "_tid": 62170267196591883976839816962024577198,
+          "question_body": "You consider these two to be different, could you tell us why?",
+          "options": [
+            "One event is part of the other event.",
+            "Some event details (e.g. time, location, participants) are conflicting.",
+            "There is no enough information.",
+            "The two events are completely un-related.Other reasons"
+          ]
+        }
+      }
+    ],
+    "_MultiPack__default_pack_prefix": "_pack"
+  }
+}

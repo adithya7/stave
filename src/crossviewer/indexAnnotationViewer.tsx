@@ -64,17 +64,31 @@ export default function IndexAnnotationViewer(props: CrossDocProp) {
 
 
   const [AnowOnEventIndex, setANowOnEventIndex] =  useState<number>(0);
+  const [BnowOnEventIndex, setBNowOnEventIndex] =  useState<number>(-1);
+
   const nowAOnEvent = all_events_A[AnowOnEventIndex];
-
-
-
-
+  const nowBOnEvent = all_events_B[BnowOnEventIndex];
 
   // @ts-ignore
   const BSelectedIndex = multiPack.crossDocLink.filter(item => item._parent_token === +nowAOnEvent.id && item.coref==="coref" && my_annotation.includes(item.id))
             .map(item => item._child_token)
             .map(event_id => all_events_B.findIndex(event => +event.id===event_id));
 
+  const [nowQuestionIndex, setNowQuestionIndex] =  useState<number>(-1);
+  const now_question = nowQuestionIndex >=0 ? multiPackQuestion.coref_questions[nowQuestionIndex] : undefined;
+
+  // @ts-ignore
+  let now_question_anno = null;
+
+  if (now_question){
+    // all question answers for current event pair for current annotator
+    // @ts-ignore
+    const temp_anno = multiPack.crossDocLink.find(item => item._parent_token === +nowAOnEvent.id && item._child_token === +nowBOnEvent.id && item.coref==="coref" && my_annotation.includes(item.id))
+                .coref_answers;
+    // @ts-ignore
+    now_question_anno = temp_anno.find(item => item.question_id === now_question.question_id)
+  }
+  console.log(now_question_anno);
 
 
   const BackEnable: boolean =  AnowOnEventIndex > 0;
@@ -114,21 +128,44 @@ export default function IndexAnnotationViewer(props: CrossDocProp) {
       }
     } else {
       setANowOnEventIndex(AnowOnEventIndex + 1);
+      setBNowOnEventIndex(-1);
+      setNowQuestionIndex(-1);
     }
 
   }
 
   function clickBack() {
     setANowOnEventIndex(AnowOnEventIndex-1);
+    setBNowOnEventIndex(-1);
+    setNowQuestionIndex(-1);
+
   }
 
 
   // this function is triggered when any event is clicked
   function eventClickCallBack(eventIndex:number, selected:boolean){
-    return
+    if (multiPackQuestion.coref_questions.length === 0) {
+      return
+    }
+
+    // only show questions for annotated event
+    if (BSelectedIndex.includes(eventIndex)) {
+        setBNowOnEventIndex(eventIndex);
+        setNowQuestionIndex(0);
+        return
+    }
   }
   function handleForteIDChange(newForteID : any) {
-    setSelectedForteID(newForteID)
+    setSelectedForteID(newForteID);
+    setBNowOnEventIndex(-1);
+    setNowQuestionIndex(-1);
+  }
+
+  function clickPrevQ() {
+     if (nowQuestionIndex > 0) setNowQuestionIndex(nowQuestionIndex-1);
+  }
+  function clickNextQ() {
+     if (nowQuestionIndex < multiPackQuestion.coref_questions.length-1) setNowQuestionIndex(nowQuestionIndex + 1);
   }
 
 
@@ -162,6 +199,33 @@ export default function IndexAnnotationViewer(props: CrossDocProp) {
             {/*</div>*/}
 
           </div>
+          <div className={style.answer_box}>
+              {now_question ?
+                <div>
+                  <div>
+                    <button onClick={clickPrevQ}>
+                      Prev Q
+                    </button>
+                    <button onClick={clickNextQ}>
+                      Next Q
+                    </button>
+                  </div>
+                  <div className={style.question_container}>
+                    {now_question.question_text}
+                  </div>
+                  <div className={style.option_container}>
+                    {now_question.options.map(option => {
+                      return (
+                         // @ts-ignore
+                        <button className={option.option_id === now_question_anno.option_id ? style.button_option_alert : style.button_option} key={option.option_id}>
+                          {option.option_text}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+                : null}
+          </div>
           <div style={{width:"500px", marginTop:"-5em"}}>
           <Select styles={customStyles} options={options} onChange={handleForteIDChange}  value={selectedForteID}/>
           </div>
@@ -194,7 +258,7 @@ export default function IndexAnnotationViewer(props: CrossDocProp) {
                   annotations={all_events_B}
                   NER = {[]}
                   AnowOnEventIndex={AnowOnEventIndex}
-                  BnowOnEventIndex={-1}
+                  BnowOnEventIndex={BnowOnEventIndex}
                   BSelectedIndex={BSelectedIndex}
                   eventClickCallBack={eventClickCallBack}
               />

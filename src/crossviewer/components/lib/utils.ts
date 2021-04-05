@@ -45,7 +45,7 @@ export function transformMultiPack (rawPack: string, forteID: string): IMultiPac
     const packData = data['py/state'];
     const [doc0, doc1] = packData['_pack_ref'];
 
-    var annotated_tids : number[] = [];
+    var annotated_tids : string[] = [];
     if (forteID in packData['_creation_records']) {
         annotated_tids = packData['_creation_records'][forteID]["py/set"];
     }
@@ -143,7 +143,16 @@ export function transformMultiPackAnnoViewer (rawPack: string): IMultiPack  {
             _parent_token: a["py/state"]["_parent"]["py/tuple"][1],
             _child_token: a["py/state"]["_child"]["py/tuple"][1],
             coref: a["py/state"]["rel_type"],
+            coref_answers: null,
         };
+        const coref_answers = a["py/state"]["coref_answers"]
+        // @ts-ignore
+        const coref_question_answers = a["py/state"]["coref_questions"]["py/state"]["_FList__data"].map((item, index) =>
+            ({
+                question_id: item["py/state"]["_tid"],
+                option_id : coref_answers[index],
+            }))
+        link.coref_answers = coref_question_answers
 
         if (a["py/state"]["rel_type"] !== "suggested") {
             return [link];
