@@ -1,5 +1,9 @@
 import React, {useRef, useEffect, useState} from 'react';
 import style from '../styles/CrossDocStyle.module.css';
+import openInstructionGif from '../images/instructions_examples.gif';
+import PairGif from '../images/pair_annotation.gif';
+import DeleteAnno from '../images/remove_annotation.gif';
+import NextEventGif from '../images/next_event.gif';
 
 function Instruction() {
   return (
@@ -7,6 +11,18 @@ function Instruction() {
       <h1>Instructions for using the tool</h1>
       <p>This tool can be used to select events that are the same across the two given documents.</p>
 
+      <h3>How to open instructions</h3>
+      <img src={openInstructionGif} />
+
+      <h3>How to annotate one pair of events</h3>
+      <img src={PairGif} />
+
+      <h3>How to delete previous annotations</h3>
+      <img src={DeleteAnno} />
+      <h3>How to proceed to the next event</h3>
+      <img src={NextEventGif} />
+
+      <br/>
       <p>At any point during the task, you can click on the “View Instructions” button to read these instructions.</p>
 
       <h3>What is this task about?</h3>
