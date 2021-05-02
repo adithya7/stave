@@ -105,8 +105,8 @@ def format_cross_doc_helper(uploaded_link, next_tid):
     # textPackJson['py/state']['serialization']["next_id"] += 1
     # return textPackJson['py/state']['serialization']["next_id"] - 1
 
-def gen_uuid_for_links(link):
-    digest = int(hashlib.sha1(str(link).encode("utf-8")).hexdigest(), 16)
+def gen_uuid_for_links(link, forteID):
+    digest = int(hashlib.sha1((str(link)+forteID).encode("utf-8")).hexdigest(), 16)
     bit_to_shift = digest.bit_length() - 128
     return uuid.UUID(int= digest >> bit_to_shift).int #28 is just to change to 128 bit
 
@@ -205,7 +205,7 @@ def new_cross_doc_link(request, crossDoc_Hash):
     # print(link)
 
     # link_id = find_and_advance_next_tid(textPackJson)
-    link_id = gen_uuid_for_links(link)
+    link_id = gen_uuid_for_links(link, forteID)
     link = format_cross_doc_helper(link, link_id)
 
     # delete possible duplicate link before and the creation records
